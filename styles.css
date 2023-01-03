@@ -13,6 +13,7 @@ body {
 
 header {
   background-color: #f5ba13;
+  height: 4.5rem;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -40,7 +41,7 @@ footer p {
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
+  width: 25%;
   margin: 16px;
   float: left;
 }
@@ -61,15 +62,16 @@ footer p {
   margin-right: 10px;
   color: #f5ba13;
   border: none;
-  width: 58px;
-  height: 36px;
+  size:10px;
+  /* width: 40%;
+  height: 50%; */
   cursor: pointer;
   outline: none;
 }
 
 form {
   position: relative;
-  width: 480px;
+  width: 50%;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -99,4 +101,17 @@ form button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+@media (max-width:500px){
+header h1{
+  font-size: 30px;
+}
+form{
+  font-size: 12px;
+}
+
+.note h1, .note p{
+  font-size: 12px;
+}
 }
